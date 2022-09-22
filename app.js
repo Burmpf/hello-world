@@ -1,11 +1,21 @@
-function guessColor(){
-  let usersGuess = prompt('what is my fav color?');
+function bestGame(){
+  let usersGuess = prompt('What is the best game of 2022?');
   
-  while (usersGuess !== 'yellow'){
-    usersGuess = prompt('Wrong! Guess again');
+  while (usersGuess !== 'Kirby'){
+    usersGuess = prompt('Wrong! Try again');
   }
 }
-guessColor();
+bestGame();
+
+function userName(){
+  let userInput= prompt('What is your name?')
+  while (userInput == ''){
+    userInput= prompt('seriously what is your name?')
+    document.write("Welcome "+ userInput + "!")
+  }
+}
+userName();
+
 
 function myFunction() {
    var element = document.body;
