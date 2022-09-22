@@ -10,8 +10,7 @@ let theirAnswerGoesHere = prompt("What was the best game of 2022")
     else 
         alert("Wrong")
 
-function changeBackgroundWhite(){
-    document.body.style.background = "red";
-    document.body.style.text ="white"
-    }
-
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
