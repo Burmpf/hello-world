@@ -8,10 +8,11 @@ function bestGame(){
 bestGame();
 
 function userName(){
-  let userInput= prompt('What is your name?')
+  let userInput= prompt('What is your name?');
   while (userInput == ''){
-    userInput= prompt('seriously what is your name?')
-    document.write("Welcome "+ userInput + "!")
+    userInput= prompt('seriously what is your name?');
+
+    document.write("Welcome "+ userInput + "!");
   }
 }
 userName();
